@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <script>
+      WebAssembly.instantiateStreaming(fetch('file:///home/tfriese/projects/mandelbrot/mandelbrot.wasm')).then(obj => {
+        console.log(renderHunByHun());
+      });
+    </script>
+
+
+  </head>
+</html>
